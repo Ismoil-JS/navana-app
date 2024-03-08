@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <div className={c.navbar_container}>
-            {/* <header>
+            <header>
                 <img src={logo} alt="Logo" />
                 <nav>
                     <ul>
@@ -63,7 +63,7 @@ const Navbar = () => {
                     <div className={c.aside_menu_layer} onClick={() => { setShowMenu(false); }} ></div>
                     </>
                 )}
-            </header> */}
+            </header>
         </div>
     );
 };
