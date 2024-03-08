@@ -1,18 +1,19 @@
 .banner{
-    margin: 0 !important;
     background-image: url('../../images/banner.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 70px);
     width: 100vw;
-    padding: 0 120px ;
+    padding: 0 120px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     
     .banner__content{
         padding: 20px;
+        box-sizing: border-box;
         max-width: 550px;
         min-width: 300px;
         display: flex;
