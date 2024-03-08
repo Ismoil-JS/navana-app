@@ -1,0 +1,94 @@
+.banner{
+    background-image: url('../../images/banner.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 70px);
+    width: 100vw;
+    padding: 0 120px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    .banner__content{
+        padding: 20px;
+        max-width: 550px;
+        min-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .banner__title{
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .banner__subtitle{
+            font-size: 1.5rem;
+            color: white;
+            text-align: center;
+        }
+
+        .banner__btn{
+            margin-top: 20px;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(119, 230, 243);
+            color: rgb(0, 0, 0);
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .banner{
+        padding: 0 40px;
+        background-image: url('../../images/banner-small.webp');
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .banner{
+        padding-top: 40px;
+        .banner__content{
+            .banner__title{
+                font-size: 2rem;
+            }
+
+            .banner__subtitle{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 410px){
+    .banner{
+        background-image: url('../../images/smallest-banner.jpeg');
+        padding: 20px;
+        .banner__content{
+            .banner__title{
+                font-size: 1.5rem;
+            }
+
+            .banner__subtitle{
+                font-size: 1rem;
+            }
+
+            .banner__btn{
+                width: 120px;
+                height: 40px;
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+
