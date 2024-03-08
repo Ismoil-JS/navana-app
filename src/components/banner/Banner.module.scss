@@ -44,6 +44,12 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
             border-radius: 5px;
+
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.548);
+                border: 1px solid white;
+                color: white;
+            }
         }
     }
 }
@@ -53,6 +59,10 @@
         padding: 0 40px;
         background-image: url('../../images/banner-small.webp');
         justify-content: center;
+        .banner__content{
+            background: #00000014;
+            border-radius: 50%;
+        }
     }
 }
 
@@ -76,6 +86,8 @@
         background-image: url('../../images/smallest-banner.jpeg');
         padding: 20px;
         .banner__content{
+            background: #00000028;
+            border-radius: 50%;
             .banner__title{
                 font-size: 1.5rem;
             }
