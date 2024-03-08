@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
       <Navbar />
-      {/* <Banner /> */}
+      <Banner />
     </>
   )
 }
