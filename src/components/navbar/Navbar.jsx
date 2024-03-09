@@ -13,22 +13,22 @@ const Navbar = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="/">Asosiy</a>
+                            <a href="/#">Asosiy</a>
                         </li>
                         <li>
-                            <a href="/about">Biz haqimizda</a>
+                            <a href="/#about">Biz haqimizda</a>
                         </li>
                         <li>
-                            <a href="/about">Avtomobillar</a>
+                            <a href="/#cars">Avtomobillar</a>
                         </li>
                         <li>
-                            <a href="/about">To'lov usullari</a>
+                            <a href="/#payment">To'lov usullari</a>
                         </li>
                         <li>
-                            <a href="/about">Yangiliklar</a>
+                            <a href="/#news">Yangiliklar</a>
                         </li>
                         <li>
-                            <a href="/contact">Aloqa</a>
+                            <a href="/#contact">Aloqa</a>
                         </li>
                     </ul>
                 </nav>
@@ -40,27 +40,27 @@ const Navbar = () => {
                 />
                 {showMenu && (
                     <>
-                    <ul className={c.aside_menu}>
-                        <li>
-                            <a href="/">Asosiy</a>
-                        </li>
-                        <li>
-                            <a href="/about">Biz haqimizda</a>
-                        </li>
-                        <li>
-                            <a href="/about">Avtomobillar</a>
-                        </li>
-                        <li>
-                            <a href="/about">To'lov usullari</a>
-                        </li>
-                        <li>
-                            <a href="/about">Yangiliklar</a>
-                        </li>
-                        <li>
-                            <a href="/contact">Aloqa</a>
-                        </li>
-                    </ul>
-                    <div className={c.aside_menu_layer} onClick={() => { setShowMenu(false); }} ></div>
+                        <ul className={c.aside_menu}>
+                            <li>
+                                <a href="/#">Asosiy</a>
+                            </li>
+                            <li>
+                                <a href="/#about">Biz haqimizda</a>
+                            </li>
+                            <li>
+                                <a href="/#cars">Avtomobillar</a>
+                            </li>
+                            <li>
+                                <a href="/#payment">To'lov usullari</a>
+                            </li>
+                            <li>
+                                <a href="/#news">Yangiliklar</a>
+                            </li>
+                            <li>
+                                <a href="/#contact">Aloqa</a>
+                            </li>
+                        </ul>
+                        <div className={c.aside_menu_layer} onClick={() => { setShowMenu(false); }} ></div>
                     </>
                 )}
             </header>

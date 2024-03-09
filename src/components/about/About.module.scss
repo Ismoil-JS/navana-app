@@ -1,5 +1,5 @@
 .about_container {
-    padding: 20px 120px;
+    padding: 60px 120px 20px 120px;
     background-color: #f4f4f4;
     min-height: 70vh;
     box-sizing: border-box;
@@ -64,7 +64,7 @@
 
 @media only screen and (max-width: 768px) {
     .about_container {
-        padding: 20px 60px;
+        padding: 50px 60px 20px 60px;
 
         h2 {
             font-size: 30px;
@@ -84,7 +84,7 @@
 
 @media only screen and (max-width: 480px) {
     .about_container {
-        padding: 20px 30px;
+        padding: 50px 30px 20px 30px;
 
         h2 {
             font-size: 25px;

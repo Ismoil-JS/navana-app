@@ -24,6 +24,14 @@
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     gap: 20px;
+
+    &:hover {
+        box-shadow: 0 0 10px rgb(119, 230, 243);
+        border: 1px solid rgb(119, 230, 243);
+        .paymentIcon {
+            background-color: rgba(119, 231, 243, 0.626);
+        }
+    }
 }
 
 .paymentIcon {

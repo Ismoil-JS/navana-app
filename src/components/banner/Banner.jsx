@@ -7,7 +7,7 @@ const Banner = () => {
             <div className={c.banner__content}>
                 <h2 className={c.banner__title}>ELEKTROMOBILLAR MAKONI</h2>
                 <p className={c.banner__subtitle}>Yo'l mashaqqatlaridan sizni xalos etuvchi haqiqiy shedevr avtomobilga ega bo'ling.</p>
-                <button className={c.banner__btn}>Tanishish</button>
+                <a href="/#cars"><button className={c.banner__btn}>Tanishish</button></a>
             </div>
         </div>
     )

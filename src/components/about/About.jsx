@@ -4,7 +4,7 @@ import flag from '../../images/flag.png'
 
 const About = () => {
     return (
-        <div className={c.about_container}>
+        <div id='about' className={c.about_container}>
             <h2><img src={flag} className={c.flag_toogle} alt="flag" /> BIZ <span style={{ color: "rgb(119, 230, 243)" }}>HAQIMIZDA</span> <img src={flag} alt="flag" /></h2>
             <div className={c.about_content}>
                 <p className={c.about_content_left}>

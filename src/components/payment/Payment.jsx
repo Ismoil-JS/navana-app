@@ -6,7 +6,7 @@ import c from './Payment.module.scss';
 
 const Payment = () => {
     return (
-        <div className={c.paymentContainer}>
+        <div id='payment' className={c.paymentContainer}>
             <h2 className={c.title}> TO'LOV <span style={{ color: "rgb(119, 230, 243)" }}>USULLARI</span></h2>
             <div className={c.paymentTypes}>
                 <div className={c.paymentType}>
