@@ -13,7 +13,7 @@ const SingleCar = () => {
 
 
   useEffect(() => {
-    axios.get(`http://localhost:9000/api/car/${id}`)
+    axios.get(`https://api.tasksforwork.uz/api/car/${id}`)
       .then((res) => {
         setCar(res.data[0]);
       })
@@ -23,7 +23,7 @@ const SingleCar = () => {
   }, [id]);
 
   useEffect(() => {
-    axios.get(`http://localhost:9000/api/comment/${id}`)
+    axios.get(`https://api.tasksforwork.uz/api/comment/${id}`)
       .then((res) => {
         console.log(res.data);
         setComments(res.data);
@@ -35,7 +35,7 @@ const SingleCar = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault(); 
-    axios.post(`http://localhost:9000/api/comment`, {
+    axios.post(`https://api.tasksforwork.uz/api/comment`, {
         content: newComment,
         car_id: id,
       })

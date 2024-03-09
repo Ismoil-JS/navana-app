@@ -9,7 +9,7 @@ const News = () => {
     const [expandedNews, setExpandedNews] = useState(null);
 
     useEffect(() => {
-        axios.get('http://localhost:9000/api/news')
+        axios.get('https://api.tasksforwork.uz/api/news')
             .then((res) => {
                 setNews(res.data);
             })

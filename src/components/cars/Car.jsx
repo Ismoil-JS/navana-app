@@ -8,7 +8,7 @@ const Car = () => {
     const [visibleCars, setVisibleCars] = useState(4);
 
     useEffect(() => {
-        axios.get('http://localhost:9000/api/car')
+        axios.get('https://api.tasksforwork.uz/api/car')
             .then((res) => {
                 setCars(res.data);
             })
